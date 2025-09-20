@@ -1,0 +1,45 @@
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+  list-style: none;
+  -webkit-font-smoothing: antialiased;
+  box-sizing: inherit;
+}
+html {
+  box-sizing: border-box;
+  font-size: 62.5%;
+}
+button {
+  font-family: inherit;
+}
+body {
+  height: 100vh;
+}
+svg,
+img {
+  max-width: 100%;
+  /* ? aspect-ratio: 1/1; */
+  height: auto;
+  display: block;
+  object-fit: cover;
+}
+h1,
+h2,
+h3,
+h4,
+h5 {
+  text-wrap: balance;
+}
+p {
+  text-wrap: pretty;
+}
+button {
+  font-family: inherit;
+}
+a:link,
+:visited {
+  color: #333;
+}
